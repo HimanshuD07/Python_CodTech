@@ -1,22 +1,22 @@
-# **Task 2: Automated Report Generation**
+### **Task 3: AI Chatbot with NLP**
 
 ```markdown
-# Task 2: Automated Report Generation
+# Task 3: AI Chatbot with NLP
 
 ## Overview
-This repository contains the solution for **Task 2** of the CODTECH IT Solutions Python Internship. The objective of this project is to build an automated data pipeline that ingests raw tabular data, aggregates key performance indicators (KPIs) using Pandas, and dynamically generates a formatted, professional PDF report.
+This repository contains the solution for **Task 3** of the CODTECH IT Solutions Python Internship. The objective is to build an interactive, command-line AI chatbot that understands natural language queries using the Natural Language Toolkit (NLTK) and Scikit-Learn.
 
 ---
 
 ## Features
-* **Automated Data Processing:** Uses Pandas to compute revenue, calculate averages, and aggregate sales data by category and region.
-* **Dynamic PDF Construction:** Utilizes ReportLab to programmatically generate documents with customized styling, headers, and structured data tables.
-* **Fail-Safe Execution:** Includes built-in mechanisms to catch missing files or malformed data, and automatically generates a sample dataset if no input CSV is found.
+* **Natural Language Processing:** Implements text tokenization, stop-word removal, and lemmatization using `NLTK` to normalize user inputs.
+* **Semantic Intent Matching:** Utilizes `TfidfVectorizer` and Cosine Similarity to mathematically determine the user's intent rather than relying on brittle keyword matching.
+* **Continuous Interaction:** Runs in a persistent terminal loop, allowing for a seamless conversational experience until the user triggers an exit command.
 
 ---
 
 ## Prerequisites
-Before running this script, ensure you have Python installed along with the required data processing and PDF generation libraries.
+Before running this script, ensure you have Python installed along with the required NLP and Machine Learning libraries.
 
 ```bash
-pip install pandas reportlab
+pip install nltk scikit-learn
