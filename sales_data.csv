@@ -1,0 +1,25 @@
+order_id,region,category,product,units_sold,unit_price,discount_pct,month
+1001,North,Electronics,Laptop,12,72000,5,January
+1002,South,Electronics,Smartphone,34,18000,10,January
+1003,East,Furniture,Office Chair,8,6500,0,January
+1004,West,Clothing,Jacket,45,2200,15,January
+1005,North,Electronics,Headphones,22,3500,8,February
+1006,South,Furniture,Desk,5,12000,5,February
+1007,East,Electronics,Laptop,9,72000,5,February
+1008,West,Clothing,T-Shirt,120,800,20,February
+1009,North,Furniture,Bookshelf,14,4800,0,March
+1010,South,Electronics,Smartphone,41,18000,10,March
+1011,East,Clothing,Jacket,38,2200,12,March
+1012,West,Electronics,Headphones,30,3500,8,March
+1013,North,Clothing,T-Shirt,95,800,20,April
+1014,South,Furniture,Office Chair,11,6500,0,April
+1015,East,Electronics,Laptop,15,72000,7,April
+1016,West,Furniture,Desk,7,12000,5,April
+1017,North,Electronics,Smartphone,28,18000,10,May
+1018,South,Clothing,Jacket,52,2200,15,May
+1019,East,Furniture,Bookshelf,19,4800,0,May
+1020,West,Electronics,Laptop,11,72000,5,May
+1021,North,Furniture,Desk,6,12000,5,June
+1022,South,Electronics,Headphones,40,3500,8,June
+1023,East,Clothing,T-Shirt,108,800,18,June
+1024,West,Electronics,Smartphone,37,18000,10,June
