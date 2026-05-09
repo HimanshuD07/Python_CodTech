@@ -10,7 +10,7 @@ from google.colab import userdata
 
 # Using Colab secrets to keep the key safe
 try:
-    API_KEY = userdata.get('OPENWEATHER_API_KEY')
+    API_KEY = userdata.get('709e3837c08c21862d30f2cf65ffbe7b')
 except userdata.SecretNotFoundError:
     # Fallback key if secret isn't set up yet
     API_KEY = "aff7a977f7b045cc158646d8bf65b41d"
