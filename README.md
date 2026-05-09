@@ -1,15 +1,22 @@
-# CODTECH IT Solutions - Python Internship Portfolio
+# **Task 2: Automated Report Generation**
+
+```markdown
+# Task 2: Automated Report Generation
 
 ## Overview
-This repository contains the complete portfolio of projects developed during the Python Internship at CODTECH IT Solutions. The repository is structured to demonstrate proficiency in various domains of Python engineering, including API integration, data automation, natural language processing, and machine learning. 
-
-Every task is built with a focus on modularity, clean code practices (PEP 8), and robust error handling.
+This repository contains the solution for **Task 2** of the CODTECH IT Solutions Python Internship. The objective of this project is to build an automated data pipeline that ingests raw tabular data, aggregates key performance indicators (KPIs) using Pandas, and dynamically generates a formatted, professional PDF report.
 
 ---
 
-## 🛠️ Global Prerequisites and Setup
+## Features
+* **Automated Data Processing:** Uses Pandas to compute revenue, calculate averages, and aggregate sales data by category and region.
+* **Dynamic PDF Construction:** Utilizes ReportLab to programmatically generate documents with customized styling, headers, and structured data tables.
+* **Fail-Safe Execution:** Includes built-in mechanisms to catch missing files or malformed data, and automatically generates a sample dataset if no input CSV is found.
 
-Before running any of the scripts in this repository, ensure you have Python 3.8+ installed. You can install all the required dependencies for the entire portfolio using the following command:
+---
+
+## Prerequisites
+Before running this script, ensure you have Python installed along with the required data processing and PDF generation libraries.
 
 ```bash
-pip install requests matplotlib seaborn pandas reportlab nltk scikit-learn numpy
+pip install pandas reportlab
